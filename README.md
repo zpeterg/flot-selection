@@ -3,15 +3,9 @@ flot-selection: Selection plugin for Flot
 
 * Author: flot developers
 
-This plugin for [Flot charts](http://www.flotcharts.org) provides support
-for selections that can be used to allow zooming.
-This is a development of V1.1 from Flot v0.7 which adds touch events so that
-zooming of charts can work on phones, tablets and other touch enabled devices.
+This is a small modification of qking's modified Flot Selection file found here: https://github.com/cclibs/flot-selection. This modification simply removes the need to select either/or on touch/click, and instead makes it touch/click agnostic. It uses a global variable to track which is ongoing and can switch at-will between them.
 
-This version works with Flot v0.7 and v0.83. Flot v0.9-work has an updated 
-version of this plug-in that also supports touch events, but it has not been
-tested yet.  This verison of the plug-in make be superceded in future the 
-offical version once v0.9 is released.
+This is my first fork, so I hope I did it right.
 
 License
 -------
